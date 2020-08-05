@@ -26,6 +26,9 @@ header {
     text-align: center;
     width: 100%;
     border-bottom: solid black 4px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 form {
@@ -90,7 +93,7 @@ p {
     text-align: center;
     padding: 1.5em 0;
     border-bottom: solid black 4px;
-    margin-bottom: 28px;
+    padding-top: 230px;
 }
 
 .primary {
